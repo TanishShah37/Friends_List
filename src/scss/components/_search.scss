@@ -1,0 +1,21 @@
+.searchContainer {
+  margin-bottom: px-to-rem(14);
+  .search {
+    padding: px-to-rem(24) px-to-rem(32);
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: px-to-rem(10);
+    border-color: transparent;
+    margin: px-to-rem(20) 0;
+    box-shadow: 0 px-to-rem(10) px-to-rem(20) rgba(0, 0, 0, 0.05);
+    font-size: px-to-rem(24);
+  }
+  .text {
+    margin-left: px-to-rem(4);
+    margin-top: px-to-rem(20);
+  }
+}
+
+
+
+

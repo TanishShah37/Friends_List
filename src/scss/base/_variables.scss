@@ -1,0 +1,21 @@
+
+$white: #fff;
+$black : #000;
+$font-weight-600 :  600;
+$grey-light: #f0eff2;
+$text-color: #585858;
+
+
+//font
+$body-font:'Nunito', sans-serif;
+
+
+// FONT SIZE
+$default-font-size: 1.6rem;
+$big-font-size: 4rem;
+$mid-font-size: 2.5rem;
+
+@function  px-to-rem($size :16){
+	@return $size/16 + rem;
+}
+

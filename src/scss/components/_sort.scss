@@ -1,0 +1,27 @@
+.sortContainer {
+  margin-top: px-to-rem(14);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  .text {
+    margin-right: px-to-rem(16);
+  }
+  
+  .select {
+    padding: px-to-rem(8) px-to-rem(16);
+    border: transparent;
+    border-radius: px-to-rem(4);
+    color: var(--color-text);
+  }
+  
+  .select:focus {
+    outline: none;
+  }
+  
+  .clear {
+    margin-left: px-to-rem(4);
+    cursor: pointer;
+  }
+  
+}
+

@@ -1,0 +1,17 @@
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    .innerContainer {
+      width: 100%;
+      max-width: px-to-rem(600);
+      min-width: px-to-rem(400);;
+      height: 80vh;
+    }
+  }
+  
+  
+  

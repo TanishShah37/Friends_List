@@ -1,0 +1,24 @@
+.item {
+    margin: 0 px-to-rem(16);
+    cursor: pointer;
+    font-size: px-to-rem(24);
+    border: 1px solid black;
+    border-radius: px-to-rem(5);
+    padding: px-to-rem(5) px-to-rem(15);
+    .item:last-child {
+      margin-right: px-to-rem(16);
+    }
+  
+    .active {
+      color: black;
+      background: transparent;
+      border: 1px solid black;
+    }
+  
+    &:hover {
+      color: black;
+      background: transparent;
+      border: 1px solid black;
+    }
+  }
+  

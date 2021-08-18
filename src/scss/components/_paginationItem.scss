@@ -1,0 +1,17 @@
+.pageItem {
+  @include button;
+  margin: 0 px-to-rem(16) ;
+
+  .list:first-child {
+    margin-left: px-to-rem(32);
+  }
+
+  &.active {
+   @include hoverActiveEffect
+  }
+
+  &:hover {
+    @include hoverActiveEffect
+
+  }
+}

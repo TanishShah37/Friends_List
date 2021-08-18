@@ -1,0 +1,41 @@
+.paginationContainer {
+    margin-top: 3rem;
+  .list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .btn {
+      font-size: px-to-rem(24);
+      cursor: pointer;
+      font-size: px-to-rem(24);
+    }
+
+    .prev {
+      @include button;
+      margin-right: px-to-rem(16);
+
+      &.active {
+        @include hoverActiveEffect;
+      }
+
+      &:hover {
+        @include hoverActiveEffect;
+      }
+    }
+
+    .next {
+      @include button;
+      margin-left: px-to-rem(16);
+
+      &.active {
+        @include hoverActiveEffect;
+      }
+
+      &:hover {
+        @include hoverActiveEffect;
+      }
+    }
+  }
+}
