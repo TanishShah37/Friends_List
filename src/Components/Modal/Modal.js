@@ -9,7 +9,7 @@ const Modal = ({ handleClickYes, setModal }) => {
       <div onClick={handleContainerClick} className="outerContainer">
         <div className='container'>
           <button onClick={() => setModal(false)} className='close'>
-            Close
+            X
           </button>
           <div className='innerContainer'>
             <p className='text'>Are You sure you want delete this friend from  the list?</p>

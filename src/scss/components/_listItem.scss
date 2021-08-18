@@ -10,8 +10,11 @@
 
   .btn {
     background-color: transparent;
-    border: none;
     cursor: pointer;
+    border: 1px solid;
+    padding: px-to-rem(5);
+    border-radius: px-to-rem(5);
+
   }
   
   .btn:focus {
@@ -19,7 +22,7 @@
   }
   
   .btn:not(:last-child) {
-    margin-right: px-to-rem(16);
+    margin-right: px-to-rem(24);
   }
   
   .icon {

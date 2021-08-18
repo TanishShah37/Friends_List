@@ -10,15 +10,13 @@
     }
   
     .active {
-      color: black;
-      background: transparent;
-      border: 1px solid black;
+      @include hoverActiveEffect;
+
     }
   
     &:hover {
-      color: black;
-      background: transparent;
-      border: 1px solid black;
+      @include hoverActiveEffect;
+
     }
   }
   

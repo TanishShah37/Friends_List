@@ -56,6 +56,7 @@ const App = () => {
   };
 
   const handleDelete = (id) => {
+    console.log(id)
     setModal(true);
     setModalId(id);
   };
